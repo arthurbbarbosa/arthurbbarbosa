@@ -1,0 +1,20 @@
+{
+  "name": "arthurbbarbosa",
+  "version": "1.0.0",
+  "description": "Arthur Barbosa's Portfolio",
+  "repository": "https://github.com/arthurbbarbosa/arthurbbarbosa",
+  "author": "Arthur Barbosa",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "next": "^15.2.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "salutecss": "1.1.0"
+  }
+}
