@@ -1,0 +1,22 @@
+@import url("https://use.typekit.net/wkd6auc.css");
+@import "tailwindcss";
+
+body {
+  font-family: "playfair-display", serif;
+  overflow: hidden;
+}
+
+@theme {
+  --animate-fade-in: fade-in 1s forwards;
+  --animate-fade-out: fade-out 1s forwards;
+
+  @keyframes fade-in {
+    from { clip-path: inset(0 0 0 100%) }
+    to { clip-path: inset(0 0 0 0) }
+  }
+
+  @keyframes fade-out {
+    from { clip-path: inset(0 0 0 0) }
+    to { clip-path: inset(0 0 0 100%) }
+  }
+}
